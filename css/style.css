@@ -1,0 +1,339 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto 0;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_navi{
+    display: flex;
+    font-size: 21px;
+    font-weight: bold;
+}
+.header_navi li{
+    margin-left: 40px;
+}
+.imganime{
+    display: block;
+    position: relative;
+    animation: anime1 1s ease;
+}
+@keyframes anime1{
+    0%{
+        opacity: 0;
+        top: 50px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+/* main */
+.main{
+    height: 400px;
+    background: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_t{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 185px;
+}
+.main_text{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* about */
+.about{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.about_t{
+    font-size: 24px;
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about_sub{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.about_text{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    line-height: normal;
+}
+/* 画像４枚の所 */
+.imgbox{
+    display: flex;
+    margin-bottom: 60px;
+}
+.imgbox p{
+    width: 25%;
+}
+.imgbox p img{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.imgbox p:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+/* course */
+.course{
+    margin-bottom: 60px;
+}
+.course_t{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.course_text{
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+}
+/* course内容1 */
+.naiyou_1img img{
+    width: 100%;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+.naiyou_1img{
+    width: 600px;
+}
+.naiyou_1img:hover img{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+.naiyou_1t{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    padding-top: 120px;
+}
+.naiyou_1text{
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 50px;
+}
+.naiyou_1migi{
+    width: 50%;
+    background-color: gainsboro;
+}
+.naiyou_1{
+    display: flex;
+}
+/* course内容２ */
+.naiyou_2img img{
+    width: 100%;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+.naiyou_2img:hover img{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+.naiyou_2img{
+    width: 600px;
+}
+.naiyou_2t{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 120px;
+    margin-bottom: 40px;
+    padding-top: 120px;
+}
+.naiyou_2text{
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 120px;
+}
+.naiyou_2hidari{
+    width: 50%;
+    background-color: gainsboro;
+}
+.naiyou_2{
+    display: flex;
+}
+/* course内容３ */
+.naiyou_3img img{
+    width: 100%;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+.naiyou_3img:hover img{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+.naiyou_3img{
+    width: 600px;
+}
+.naiyou_3t{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    padding-top: 120px;
+}
+.naiyou_3text{
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 50px;
+}
+.naiyou_3migi{
+    width: 50%;
+    background-color: gainsboro;
+}
+.naiyou_3{
+    display: flex;
+    margin-bottom: 60px;
+}
+/* news */
+.news{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.news_t{
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.news_sub{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+/* newsbox */
+.newslist_item{
+    width: 300px;
+    border: 2px solid white;
+}
+.newslist_item:hover{
+    border: 2px solid orange;
+}
+.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 60px auto;
+}
+/* more */
+.more{
+    width: 300px;
+    height: 60px;
+    margin: 60px auto 60px;
+    background-color: peru;
+    border: 2px solid white;
+}
+.more:hover{
+    border: 2px solid red;
+}
+.more_t{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 21px;
+}
+/* access */
+.access{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background-color: peachpuff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.access_t{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.access_sub{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.accessbox{
+    margin:60px auto 60px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    width: 700px;
+}
+/* contact */
+.contact{
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact_t{
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact_text{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* formbox */
+.formbox{
+    text-align: center;
+    width: 640px;
+    margin: 0px auto 140px;
+    line-height: normal;
+}
+.formbox dt{
+    width: 240px;
+    text-align: left;
+    border: 2px solid black;
+}
+.formbox dl{
+    display: flex;
+}
+.formbox dd{
+    width: 400px;
+    text-align: left;
+    border: 2px solid black;
+}
+.formbox span{
+    position: relative;
+    flex-direction: column;
+}
+
+.sousinn{
+    text-align: center;
+    padding-top: 30px;
+}
+/* 最後 */
+.last{
+    background-color: #707070;
+    height: 75px;
+    text-align: center;
+    padding-top: 30px;
+}
+.last_text{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
